@@ -1,0 +1,22 @@
+﻿<h2>Produtos</h2>
+
+<p>{{data}}</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Produto</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="x in result">
+            <td>
+                {{x.Id}}
+            </td>
+            <td>
+                {{x.Nome}}
+            </td>
+        </tr>
+    </tbody>
+</table>
